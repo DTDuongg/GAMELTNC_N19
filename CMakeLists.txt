@@ -52,9 +52,11 @@ function(build_chapter TARGET)
 endfunction()
 
 #===========================================================
-# Chỉ build 3 chapter
+# Build các chapter
 #===========================================================
 
 add_subdirectory(01_Intro/Source)
 add_subdirectory(02_Resources/Source)
 add_subdirectory(03_World/Source)
+add_subdirectory(04_Input/Source)
+add_subdirectory(05_States/Source)
